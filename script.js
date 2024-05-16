@@ -20,6 +20,6 @@ async function Display(str, time) {
 subBtn.addEventListener("click", (e)=>{
 	e.preventDefault()
 	let str = text.value;
-	let time = parseInt(delay.value, 10) * 1000
+	let time =delay.value
 	Display(str, time)
 })
